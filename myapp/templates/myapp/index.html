@@ -1,0 +1,10 @@
+{% extends "myapp/base.html" %}
+
+{% block body %}
+
+{% load static%}
+<link rel="stylesheet" href="{% static 'img/style.css'%}">
+<body id="bg" style="background-image: url('{% static 'img/1.jpg'%}'); background-repeat:no-repeat; background-size:100%;">
+
+{% comment %} <h1>Hello World..!</h1> {% endcomment %}
+{% endblock body %}
